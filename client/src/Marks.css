@@ -1,0 +1,14 @@
+.heading {
+    padding: 10px;
+    color: black;
+}
+
+.form {
+    padding: 20px;
+    background-color: ivory;
+}
+
+.form-data {
+    padding: 10px;
+    border: 1px solid black;
+}

@@ -1,0 +1,48 @@
+.functionality {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+}
+
+.clicked {
+    content: url('./assets/checked.png');
+    margin-left: 10%;
+}
+
+.result {
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: auto;
+    background-color: cornsilk;
+}
+
+.result-button {
+    width: 200px;
+}
+
+.result-item {
+    background-image: linear-gradient(to left, rgba(255,0,0,1), rgba(212, 44, 170, 0));
+    width: 100%;
+    margin: 5px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding: 5px;
+}
+
+.name {
+    color: antiquewhite;
+}
+
+.form {
+    padding: 20px;
+    background-color: ivory;
+}
+
+.form-data {
+    padding: 10px;
+    display: inline-block;
+}

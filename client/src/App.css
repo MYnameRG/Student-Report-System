@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  background-color: gray;
+  height: 500vh;
+}
+
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.links > h4 {
+  margin-top: 15px;
+  padding: 10px;
+  font-size: medium;
+  border: 1px solid ghostwhite;
+}
+
+.links > h4:hover {
+  border-radius: 10px;
+  background-color: mediumvioletred;
+  transition: all 0.8s;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;  
+  background-color: gainsboro;
+  padding: 10px;
+  height: 100vh;
+}
